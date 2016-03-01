@@ -1,0 +1,27 @@
+<section class="content-header">
+  <h1>Transmitir <small>Optional description</small></h1>
+  <ol class="breadcrumb">
+    <!--<li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>-->
+    <!--<li class="active">Here</li>-->
+  </ol>
+</section>
+<section class="content">
+  <div class="row">
+    <div class="col-md-10">
+      <div class="box box-primary">
+        <div class="box-header with-border"><h3 class="box-title">Curso</h3></div>
+        <div class="box-body">
+          <video src="" id="video" style="width: 200px; height: 200px;" autoplay="true"></video>
+          <canvas style="display: none;"  id="preview"></canvas>
+          <div id="logger"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="/javascript/page/emitirCurso.js"></script>
+<script>
+  $(document).ready(function() {
+    pageVideo.init();
+  });
+</script>
