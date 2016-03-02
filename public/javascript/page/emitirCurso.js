@@ -40,7 +40,7 @@ var pageVideo = (function() {
 
       setInterval(function() {
             viewVideo(video, context);
-      },170);
+      },220);
     }
 
 
